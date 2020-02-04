@@ -218,8 +218,8 @@ state:
 flavor:
   description: The flavor that has been used for this server
   returned: success when not state == absent
-  type: str
-  sample: flex-8
+  type: dict
+  sample: { 'slug': 'flex-4', 'name': 'Flex-4', 'vcpu_count': 2, 'memory_gb': 4}
 image:
   description: The image used for booting this server
   returned: success when not state == absent
