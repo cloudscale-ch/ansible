@@ -227,7 +227,7 @@ image:
   type: str
   sample: debian-8
 zone:
-  description: The zone this server is running in
+  description: The zone used for booting this server
   returned: success when not state == absent
   type: dict
   sample: { 'slug': 'lpg1' }
